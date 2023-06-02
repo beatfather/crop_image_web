@@ -1,0 +1,52 @@
+
+  .submit-button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .home-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    padding-top: 20px;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 200px rgb(0 0 0 / 20%);
+    background-color: #f0f0f0; // 将背景颜色设置为浅灰色
+    
+  }
+
+  .outer-container {
+    background-color: #7f4f4f; // 更改此值以设置所需的背景颜色
+  }
+
+  .sample_img{
+    position: absolute;
+    left: 50%; /* 更改百分比以调整水平位置 */
+    width: 100%;
+
+    transform: translate(-50%, -50%);
+    background: url('~@/assets/sample.png') no-repeat center / 100% ;
+  }
+
+  .img_crop{
+    position: absolute;
+    left: 50%; /* 更改百分比以调整水平位置 */
+    max-width: 100%;
+
+    transform: translate(-50%, -50%);
+
+  }
+
+  .image-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 100%;
+  }
+  
+  
+  
