@@ -221,7 +221,7 @@ const Home = () => {
               {croppedImage && (
                 <Card className="crop-container">
                   <Form.Item label="预览" className="image-center">
-                    <img src={croppedImage} alt="裁剪后的图片" />
+                    <img className= "image-center" src={croppedImage} alt="裁剪后的图片" />
                   </Form.Item>
                 </Card>
               )}
