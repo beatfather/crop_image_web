@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfinal=self.webpackChunkfinal||[]).push([[186],{1186:function(n,e,u){u.r(e),u.d(e,{default:function(){return i}});u(7363);var a=u(184),i=function(){return(0,a.jsx)("div",{className:"not-found-container",children:(0,a.jsx)("div",{className:"not-found-img"})})}}}]);
+//# sourceMappingURL=186.4f5ba105.chunk.js.map
