@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace用于指定当前的映射文件和哪个接口进行映射,需要指定接口的文件路径,路径需要是包的完整路径结构-->
+<mapper namespace="com.example.takehome.mapper.FileMapper">
+
+        <resultMap id="FileEntityMap" type="com.example.takehome.entity.File">
+                <!--将表的字段和类的属性名不一致的进行匹配指定,名称一致的也可以指定,但没必要
+                但是,在定义映射规则时无论主键名称是否一致都不能省
+                column属性:表示表中的字段名称
+                property属性:表示类中的属性名称
+                -->
+                <id column="id" property="id"></id>
+                <result column="file_data" property="fileData"></result>
+                <result column="created_time" property="createdTime"></result>
+        </resultMap>
+
+        <insert id="insertZipFile" parameterType="map">
+                INSERT INTO zip_files(file_name, file_data, created_time)
+                VALUES (#{fileName}, #{fileData}, #{createdTime})
+        </insert>
+        
+        <select id="findLastest" resultMap="FileEntityMap">
+                SELECT * FROM zip_files ORDER BY created_time DESC LIMIT 1
+        </select>
+        
+
+</mapper>
+

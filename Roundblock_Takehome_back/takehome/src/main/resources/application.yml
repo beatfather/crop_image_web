@@ -1,0 +1,17 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/takehome?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Wh123454321@
+
+test: "test"
+
+# application.yml
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.example.takehome.entity
+
+
+
