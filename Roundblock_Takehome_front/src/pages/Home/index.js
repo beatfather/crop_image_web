@@ -48,6 +48,11 @@ const Home = () => {
 
   // 裁剪图片
   const cropImageNow = () => {
+    // 检查是否有有效的裁剪区域
+    if (!crop || !crop.width || !crop.height) {
+      message.error("请先进行裁剪操作");
+      return;
+    }
     const image_HTML = new Image();
     image_HTML.src = src;
 
