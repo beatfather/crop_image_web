@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e0bc975-a66d-4965-9658-ff01abd020b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/takehome/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/src/main/java/com/example/takehome/TakehomeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/src/main/java/com/example/takehome/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/src/main/java/com/example/takehome/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/src/main/java/com/example/takehome/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/src/main/java/com/example/takehome/entity/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/src/main/java/com/example/takehome/mapper/FileMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/src/main/java/com/example/takehome/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/src/main/java/com/example/takehome/service/ex/DownloadException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/src/main/java/com/example/takehome/service/ex/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/src/main/java/com/example/takehome/service/ex/UploadException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/src/main/java/com/example/takehome/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/src/main/java/com/example/takehome/util/JsonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/src/main/resources/mapper/FileMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/takehome/src/test/java/com/example/takehome/TakehomeApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/takehome" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QYCkpqzsDjHHnAy5EYehwExXj0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/94272/Desktop/Job/my-personal_website/Roundblock_Takehome/Roundblock_Takehome_back/takehome/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;41d39441c45a9e056c30fa6cbb5c808f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\94272\Desktop\Job\my-personal_website\Roundblock_Takehome\Roundblock_Takehome_back\takehome\src\main\resources" />
+      <recent name="C:\Users\94272\Desktop\Job\my-personal_website\Roundblock_Takehome\Roundblock_Takehome_back\takehome\src\main\java\com\example\takehome" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.takehome.entity" />
+      <recent name="com.example.takehome.service.ex" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TakehomeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="takehome" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.takehome.TakehomeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e0bc975-a66d-4965-9658-ff01abd020b7" name="Changes" comment="" />
+      <created>1685521273871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685521273871</updated>
+      <workItem from="1685521275009" duration="3034000" />
+      <workItem from="1685605991499" duration="12056000" />
+      <workItem from="1685665709385" duration="16665000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/takehome/src/main/java/com/example/takehome/service/impl/FileServiceImpl.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
